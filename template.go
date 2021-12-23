@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-func read_input() []string {
+func readInput() []string {
 	var output []string
 	file, err := os.Open("input.txt")
 	if err != nil {
@@ -26,16 +26,16 @@ func read_input() []string {
 	return output
 }
 
-func solve_part2() int {
+func solvePart2() int {
 	return 0
 }
 
-func solve_part1() int {
+func solvePart1() int {
 	return 0
 }
 
 func main() {
-	s := read_input()
-	fmt.Println("part1: ", solve_part1())
-	fmt.Println("part2: ", solve_part2())
+	s := readInput()
+	fmt.Println("part1: ", solvePart1())
+	fmt.Println("part2: ", solvePart2())
 }
